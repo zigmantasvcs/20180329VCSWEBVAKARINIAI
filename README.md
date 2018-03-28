@@ -1,9 +1,10 @@
 # VCS WEB kūrimo vakariniai mokymai (I dalis)
+Žemiau pateikta informacija skirta tik šiai kurso daliai
 
 ## Programinės įrangos pasiruošimas
 
-* Kodo redaktoriai: Atom, Sublime, Notepad++ ar kt.
-* Tik Windows naudotojams: [GitBash](https://git-for-windows.github.io/) arba [cmder](http://cmder.net/)
+* Kodo redaktoriai: Atom, Sublime, Notepad++ ar kt. (rekomenduoju Atom).
+* Tik Windows naudotojams: [GitBash](https://git-for-windows.github.io/) arba [cmder](http://cmder.net/). Kaip susitvarkyti git, gausite informaciją iš lektoriaus.
 
 ## Kurso I-ojo etapo kalendorius
 
@@ -11,6 +12,11 @@
 * Balandis (3, 5, 6, 9, 10, 12, 13, 16, 17, 19)
 * Laisvos dienos trečiadieniais
 
+## Tai ką bandysime perprasti
+
+* HTML 
+* CSS
+* JavaScript
 
 ## Savarankiškos užduotys
 
