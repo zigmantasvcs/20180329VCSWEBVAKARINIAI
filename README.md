@@ -3,8 +3,8 @@
 
 ## Programinės įrangos pasiruošimas
 
-* Kodo redaktoriai: Atom, Sublime, Notepad++ ar kt. (rekomenduoju Atom).
-* Tik Windows naudotojams: [GitBash](https://git-for-windows.github.io/) arba [cmder](http://cmder.net/). Kaip susitvarkyti git, gausite informaciją iš lektoriaus.
+* Kodo redaktoriai: Atom, Sublime, Notepad++ ar kt. (rekomenduoju Atom, įsidiekite).
+* Tik Windows naudotojams: [GitBash](https://git-for-windows.github.io/) arba [cmder](http://cmder.net/). Kaip susitvarkyti git rasite faile Git instructions.docx
 
 ## Kurso I-ojo etapo kalendorius
 
