@@ -2,22 +2,22 @@
 
 ## Video
 
-[YouTube áraðas](https://youtu.be/ZSKKTvVGFfk)
+[YouTube irasas](https://youtu.be/ZSKKTvVGFfk)
 
 ## Paskaitos turinys
 
-1. [Skaidrës](https://github.com/zigmantasvcs/20180329VCSWEBVAKARINIAI/blob/master/skaidres/paskaita-1.pdf)
+1. [Skaidres](https://github.com/zigmantasvcs/20180329VCSWEBVAKARINIAI/blob/master/skaidres/paskaita-1.pdf)
 
-* HTML ávadas
+* HTML ivadas
 * Kas tai yra HTML
 * Kaip tai veikia?
-* HTML dokumento struktûra
+* HTML dokumento struktura
 * Tekstas
-* Sàraðai
+* Sarasai
 * Nuorodos 
 
 2. [Papildomai HTML] (https://www.w3schools.com/html/default.asp)
 
-## Uþduotys
+## Uzduotys
 
-[HTML uþduotys] (http://www.codingschoolprojektai.lt/tmp/zigmantas/20180329VCSWEBVAKARINIAI/homeworks/html/)
+[HTML uzduotys] (http://www.codingschoolprojektai.lt/tmp/zigmantas/20180329VCSWEBVAKARINIAI/homeworks/html/)
