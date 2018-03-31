@@ -19,7 +19,7 @@
 2. Papildomai:
 * [Papildomai HTML apie formas](https://marksheet.io/html-forms.html)
 * [Papildomai HTML apie lenteles](https://marksheet.io/html-tables.html)
-* [Papildomai HTML apie lenteles](https://marksheet.io/html-images.html)
+* [Papildomai HTML apie paveikslëlius](https://marksheet.io/html-images.html)
 
 ## Uzduotys
 
