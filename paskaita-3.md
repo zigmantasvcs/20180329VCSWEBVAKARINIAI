@@ -22,4 +22,4 @@
 
 ## Uzduotys
 
-[HTML uzduotys](http://www.codingschoolprojektai.lt/tmp/zigmantas/20180329VCSWEBVAKARINIAI/homeworks/html/)
+[CSS uzduotys](http://www.codingschoolprojektai.lt/tmp/zigmantas/20180329VCSWEBVAKARINIAI/homeworks/css/)
