@@ -1,0 +1,54 @@
+@font-face{
+  font-family: mano;
+  src: url(../fonts/orange.ttf);
+}
+
+div{
+  border: 1px dashed black;
+  height: 100px;
+  width: 100px;
+}
+
+div:nth-child(3n+1){
+  background-color: yellow;
+}
+
+div:first-child{
+  background-color: red;
+}
+div:hover{
+  background-color: purple;
+}
+div:active{
+  border: 3px dashed black;
+}
+
+a{
+  display: block;
+  font-family: mano1, mano2, mano3, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-size: 18pt;
+  text-shadow: 0px 0px 10px black;
+}
+
+a::first-letter{
+  color: red;
+}
+body{
+  background-color: white;
+}
+
+/* a::first-letter{
+  color: red;
+} */
+
+a:hover{
+  background-color: rgba(20, 73, 148, 0.1); /*#144994;*/
+  color: white;
+}
+
+ul{
+  list-style-type: none;
+}

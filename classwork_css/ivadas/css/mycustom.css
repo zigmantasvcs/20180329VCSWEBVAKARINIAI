@@ -1,0 +1,33 @@
+*{
+  font-size: 50pt;
+}
+
+h1{
+  color:white;
+  background-color: purple;
+  width: 500px;
+}
+
+p{
+  color: green;
+  font-style: italic
+}
+
+p.raudonas{
+  color: red;
+}
+
+div.raudonas{
+  background-color: red;
+}
+
+#pirmas{
+  letter-spacing: 10px;
+}
+
+[title]{
+  border-radius: 100px;
+  border-color: silver;
+  border-width: 10px;
+  border-style: solid;
+}
