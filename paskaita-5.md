@@ -1,20 +1,20 @@
-# CSS: 4 paskaita
+# CSS: 5 paskaita
 
 ## Video
 
-[YouTube irasas](https://youtu.be/Bl0zMNQ2S5M)
+[YouTube irasas](https://youtu.be/KeBlSATkw7s)
 
 ## Paskaitos turinys
 
-1. [Skaidres](https://github.com/zigmantasvcs/20180329VCSWEBVAKARINIAI/blob/master/skaidres/paskaita-4.pdf)
+1. [Skaidres](https://github.com/zigmantasvcs/20180329VCSWEBVAKARINIAI/blob/master/skaidres/paskaita-5.pdf)
 
-* Dėžutės (padding, margin)
-* Pozicionavimas
-* Float
+* Išdėstymas pagal GRID
+* Materialize
+* Parallax
 
 2. Papildomai:
-* [Viskas apie float](https://css-tricks.com/all-about-floats/)
+* [Galima pasiimti template ir nuo jo pradėti vystyti](http://materializecss.com/templates/starter-template/preview.html)
 
 ## Uzduotys
 
-[CSS uzduotys](http://www.codingschoolprojektai.lt/tmp/zigmantas/20180329VCSWEBVAKARINIAI/homeworks/css/)
+[CSS uzduotys, papildyta projekto užduotis](http://www.codingschoolprojektai.lt/tmp/zigmantas/20180329VCSWEBVAKARINIAI/homeworks/css/)
