@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var vardas = prompt("Koks tavo vardas?", "Anonimas");
+      var pavarde = prompt("Kokia tavo pavardė?", "Anonimas");
+      var amzius = prompt("Kiek jums metų?", "");
+
+      switch (vardas) {
+        case "Jonas":
+          alert("Sveikas, Jonai");
+          break;
+        case "Petras":
+          alert("Sveikas, Petrai");
+          break;
+        case "Marytė":
+          alert("Sveika, Maryte");
+          break;
+        default:
+          alert("Nepažįstu, bet sveikas(-a)");
+      }
+
+      if(amzius >= 20 && amzius <= 30){ // && ir AND
+        alert("Einame į barą");
+      }
+      else if(amzius > 30){
+        alert("Einam į pirtį");
+      }
+      else{
+        alert("Einam giros");
+      }
+
+
+      //alert(vardas + " " + pavarde + " amžius yra " + amzius);
+    </script>
+  </body>
+</html>
