@@ -14,19 +14,55 @@
         // bet kas kita - Karštas vanduo
         function kavosAparatas(kodas){
           // funkcija grazina gerima (teksto pavidalu)
-          switch (kodas) {
-            case "1":
-              return "Juoda kava";
-            case "2":
-              return "Kava su pienu";
-            default:
-              return "Karštas vanduo";
+          // I budas
+          // switch (kodas) {
+          //   case "1":
+          //     return "Juoda kava";
+          //   case "2":
+          //     return "Kava su pienu";
+          //   default:
+          //     return "Karštas vanduo";
+          // }
+          // II budas
+          // if(kodas == "1"){
+          //   return "Juoda kava";
+          // }
+          // else if (kodas == "2") {
+          //   return "Kava su pienu"
+          // }
+          // else{
+          //   return "Karštas vanduo";
+          // }
+          // III būdas
+
+          // if(kodas == "1"){
+          //   return "Juoda kava";
+          // }
+          // if(kodas == "2"){
+          //   return "Kava su pienu";
+          // }
+          // return "Karštas vanduo";
+
+          // IV būdas
+          if(isNaN(kodas)){ // isNaN grazina true arba false
+            return "Klaida";
           }
+
+          if(kodas == "1"){
+            return "Juoda kava";
+          }
+          if(kodas == "2"){
+            return "Kava su pienu";
+          }
+          return "Karštas vanduo";
+
         }
 
         var kodas = prompt("Pasirinkite gėrimą", 0);
         var gerimas = kavosAparatas(kodas);
         alert(gerimas);
+        console.log(gerimas);
+        var draugas = gerimas;
       </script>
   </body>
 </html>

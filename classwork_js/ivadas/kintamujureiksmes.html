@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var kintamsis1 = "";
+      var kintamsis2;
+      var kintamsis3 = 0;
+      var kintamsis4 = Number("a"); // NaN
+      var kintamsis5 = null;
+      // traktuojama, kad kintamsis neturi reikšmės
+
+      var vardas = prompt("Koks jūsų vardas?", "");
+      var kompanija = prompt("Kūsų įmonė?", "");
+
+      alert("Sveiki, " + (vardas || kompanija || "kliente"));
+
+    </script>
+  </body>
+</html>

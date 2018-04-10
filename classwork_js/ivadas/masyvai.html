@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      // I būdas
+      // var picosSudetis = new Array();
+      // picosSudetis[0] = "sūris";
+      // picosSudetis[1] = "svogūnas";
+      // picosSudetis[2] = "kumpis";
+      //
+      // alert(picosSudetis[0]);
+      // II būdas
+      // var picosSudetis = new Array("sūris", "svogūnas", "kumpis");
+      // alert(picosSudetis[2]);
+
+      /// III būdas
+      var picosSudetis = ["sūris", "svogūnas", "kumpis", "pomidoras", "grybai"];
+
+      // for(var i=picosSudetis.length; i>=0; i--){
+      //   console.log(picosSudetis[i-1]);
+      // }
+
+      var i = 1;
+      while(i<picosSudetis.length){
+        if(picosSudetis[i] == "kumpis"){
+          picosSudetis[i] = "žuvis";
+        }
+        console.log(picosSudetis[i]);
+        i++;
+      }
+
+
+
+    </script>
+  </body>
+</html>
