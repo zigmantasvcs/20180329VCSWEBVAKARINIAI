@@ -1,4 +1,4 @@
-# JS: 7 paskaita
+# JS: 8 paskaita
 
 ## Video
 
