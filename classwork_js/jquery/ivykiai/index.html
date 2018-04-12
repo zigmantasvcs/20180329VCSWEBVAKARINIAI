@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      .box{
+        width: 100px;
+        height: 100px;
+        border: 1px solid;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+
+    </div>
+    <div class="box">
+
+    </div>
+    <div class="box">
+
+    </div>
+    <div class="box">
+
+    </div>
+    <div class="box">
+
+    </div>
+    <div class="box">
+
+    </div>
+    <div class="box">
+
+    </div>
+    <div class="box">
+
+    </div>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+      $(".box").click(function(){
+        $(".box").text("UPS");
+        console.log("Tekstas");
+        //$(".box").css("background-color", "red");
+        //$(".box").css("display", "none");
+        $(this).css("width", "300px");
+        var plotis = $(".box").css("width");
+        $(".box").text(plotis);
+      });
+
+      //$(".box").hover(function(){}, function(){});
+
+      // $(".box").mouseleave(function(){
+      //   $(this).css("background-color", "purple");
+      // });
+      //
+      // $(".box").mouseenter(function(){
+      //   $(this).css("background-color", "white");
+      // });
+
+    </script>
+  </body>
+</html>
