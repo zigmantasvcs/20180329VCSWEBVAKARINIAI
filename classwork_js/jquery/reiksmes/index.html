@@ -31,25 +31,65 @@
       </tr>
       <tr>
         <td><button>=</button></td>
-        <td></td>
-        <td></td>
+        <td><button>/</button></td>
+        <td><button>*</button></td>
       </tr>
     </table>
     <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/calculator.js"></script>
     <script>
-      $("button").click(function(){
+      var operation;
+      var firstNumber;
+      var lastNumber;
 
+      $("button").click(function(){
         var mygtukoReiksme = $(this).text();
 
         if(mygtukoReiksme != "="){
-          var result = $("#result").val();
-          $("#result").val(result + mygtukoReiksme);
+          // atliekam kitus veiksmus
+          if(isNaN(mygtukoReiksme)){
+            operation = mygtukoReiksme;
+          }
+          else{
+            $("#result").val(mygtukoReiksme);
+            if(firstNumber){
+              lastNumber = mygtukoReiksme;
+            }
+            else{
+              firstNumber = mygtukoReiksme;
+            }
+          }
         }
         else{
-          var apskaiciuota = eval($("#result").val());
-          $("#result").val(apskaiciuota)
+          // kvieciam funkcija ir spausdinam rezultata
+          if(operation == "+"){
+            var result = Add(firstNumber, lastNumber);
+            $("#result").val(result);
+          }
+          // iskviesti dar tris funckijas
         }
-      })
-    </script>
-  </body>
+      });
+
+
+
+
+
+
+
+
+
+
+
+        // var mygtukoReiksme = $(this).text();
+        //
+        // if(mygtukoReiksme != "="){
+        //   var result = $("#result").val();
+        //   $("#result").val(result + mygtukoReiksme);
+        // }
+        // else{
+        //   var apskaiciuota = eval($("#result").val());
+        //   $("#result").val(apskaiciuota)
+        // }
+        </script>
+      </body>
 </html>

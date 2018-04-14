@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      .box{
+        width: 100px;
+        height: 100px;
+          background-color: purple;
+          border-radius: 50px;
+          box-shadow: 0px 0px 10px purple;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+
+    </div>
+    <div class="box">
+
+    </div>
+    <div class="box">
+
+    </div>
+    <div class="box">
+
+    </div>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+      function manoAnimacija(elementas){
+        elementas.animate({"height":"200px", "width":"200px"}, function(){
+          // kodas kuri vykdysime kai baigsi animacija
+          elementas.animate({"height":"100px", "width":"100px"}, function(){
+            manoAnimacija(elementas);
+          })
+        });
+      }
+
+
+      $("div").click(function(){
+        manoAnimacija($(this));
+      })
+
+    </script>
+  </body>
+</html>
