@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      .container{
+        /* //border: 1px solid black; */
+        min-height: 550px;
+        width: 400px;
+        margin: 10px;
+        float: left;
+      }
+
+      .left, .right{
+        width: 50%;
+        float: left;
+      }
+
+      .box{
+        padding: 20px;
+      }
+
+      .left .box{
+        background-color: silver;
+      }
+      img{
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/profilegenerator.js"></script>
+    <script type="text/javascript">
+      $.ajax({
+        url: "http://localhost:3000",
+        dataType: "json"
+      })
+      .done(function(data){
+        // veiksmai vykdomi kai viskas ok
+        $.each(data, function(index,value){
+          var container = getContainer(value);
+          $("body").prepend(container);
+        })
+
+        //append(data, 0);
+      })
+      .fail(function(jqXHR, textStatus){
+        // vykdoma kai fail
+        alert(textStatus);
+      })
+      .always(function(){
+        // visada ivykdoma
+      });
+
+
+      // function append(objektuMasyvas, index){
+      //   var container = getContainer(objektuMasyvas[index]);
+      //   $("body").prepend(container);
+      //   console.log(container);
+      //   container.animate({opacity:1}, 500, function(){
+      //     var i = index + 1;
+      //     if(objektuMasyvas.length == i){
+      //       return;
+      //     }
+      //     append(objektuMasyvas, i);
+      //   })
+      // }
+    </script>
+  </body>
+</html>

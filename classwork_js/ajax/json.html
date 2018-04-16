@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      .container{
+        width: 400px;
+        font-size: 20pt;
+        box-shadow: 0 0 5px black;
+        height: 620px;
+      }
+      img{
+        width: 100%;
+      }
+      .box{
+        width: 100%;
+        height:90px;
+      }
+      [class^=label]{
+        float: left;
+        width: 50%;
+      }
+      .label-left{
+        text-align: right;
+        background-color: silver;
+        height: 100%;
+      }
+
+      .innerBox{
+        padding: 20px;
+      }
+      .innerBox:first{
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <div class="">
+          <img src="jonas.jpg" alt="">
+        </div>
+      </div>
+      <div class="box">
+        <div class="label-left">
+          <div class="innerBox">
+              Vardas
+          </div>
+        </div>
+        <div class="label-right">
+          <div class="innerBox">
+              Jonas
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="label-left">
+          <div class="innerBox">
+              Pavardė
+          </div>
+        </div>
+        <div class="label-right">
+          <div class="innerBox">
+              Jonaitis
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="label-left">
+          <div class="innerBox">
+              Amžius
+          </div>
+        </div>
+        <div class="label-right">
+          <div class="innerBox">
+              40
+          </div>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="label-left">
+          <div class="innerBox">
+              Aprašymas
+          </div>
+        </div>
+        <div class="label-right">
+          <div class="innerBox">
+              Esu jaunas ir gražus
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="jquery-3.3.1.js"></script>
+    <script>
+      var studentas = {
+        name: "Jonas",
+        surname: "Jonaitis",
+        age: 40,
+        photo: "jonas.jpg",
+        description: "Esu jaunas ir gražus"
+      }
+
+      var containerDiv = $("<div>");
+      var rowDiv = $("<div>");
+      rowDiv.addClass
+      containerDiv.append(rowDiv);
+
+      $("body").append(containerDiv);
+      $("body").append(containerDiv);
+      var photoDiv = $("<img>");
+      var nameDiv = $("<div>");
+      var surnameDiv = $("<div>");
+      var ageDiv = $("<div>");
+      var photoDiv = $("<div>");
+      var descriptionDiv = $("<div>");
+
+
+
+    </script>
+  </body>
+</html>
