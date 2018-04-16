@@ -10,17 +10,17 @@
     </script>
     <script type="text/javascript">
       $.ajax({
-        url:"http://localhost:3000",
+        url:"http://localhost:3000", // adresas iš kur gaunami duomenys
         dataType: "json"
       })
       .done(function(data) {
-        console.log(data);
+        // veiksmai su data json objektu
       })
-      .fail(function() {
-        alert( "error" );
+      .fail(function(jqXHR, textStatus) {
+        // jei klaida
       })
       .always(function() {
-        alert( "complete" );
+        // veiksmai bet kuriuo atveju kai viskas baigta
       });
     </script>
   </body>
