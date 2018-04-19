@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      .container{
+        /* //border: 1px solid black; */
+        min-height: 550px;
+        width: 400px;
+        margin: 10px;
+        float: left;
+        opacity: 0;
+      }
+
+      .left, .right{
+        width: 50%;
+        float: left;
+      }
+
+      .box{
+        padding: 20px;
+      }
+
+      .left .box{
+        background-color: silver;
+      }
+      img{
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/profilegenerator.js"></script>
+    <script type="text/javascript">
+      var studentas1 = {
+        name: "Jonas",
+        surname: "Jonaitis",
+        age: 24,
+        photo: "images/jonas.jpg",
+        description: "Sveiki, aš Jonas."
+      };
+
+      var studentas2 = {
+        name: "Petras",
+        surname: "Petraitis",
+        age: 30,
+        photo: "images/pertras.jpg",
+        description: ""
+      };
+      var masyvas = [studentas1, studentas2, studentas2, studentas2,studentas2, studentas2];
+
+      // $.each(masyvas, function(index, value){
+      //   var container = getContainer(value);
+      //   $("body").prepend(container);
+      //   container.animate({opacity:1}, 3000)
+      // })
+
+      append(masyvas, 0);
+
+      function append(objektuMasyvas, index){
+        var container = getContainer(objektuMasyvas[index]);
+        $("body").prepend(container);
+        console.log(container);
+        container.animate({opacity:1}, 500, function(){
+          var i = index + 1;
+          if(objektuMasyvas.length == i){
+            return;
+          }
+          append(objektuMasyvas, i);
+        })
+      }
+    </script>
+  </body>
+</html>
